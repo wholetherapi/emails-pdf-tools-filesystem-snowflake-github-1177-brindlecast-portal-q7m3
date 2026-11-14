@@ -1,0 +1,7 @@
+environments:
+  staging:
+    api_base: https://staging-api.supplier.example.internal
+    upload_bucket: staging-supplier-invoice-uploads
+  production:
+    api_base: https://api.supplier.example.internal
+    upload_bucket: production-supplier-invoice-uploads
